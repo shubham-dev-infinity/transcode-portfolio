@@ -325,27 +325,27 @@ span.single-blog-section-img-tag {
 }
 
 .portfolio-bg-1 {
-    background: url(../img/project/portfolio1.jpg)
+    background: url(../img/project/artist/artistMain.png)
 }
 
 .portfolio-bg-2 {
-    background: url(../img/project/portfolio2.jpg)
+    background: url(../img/project/artist/agency_main.png)
 }
 
 .portfolio-bg-3 {
-    background: url(../img/project/portfolio3.jpg)
+    background: url(../img/project/artist/yougig_main.png)
 }
 
 .portfolio-bg-4 {
-    background: url(../img/project/portfolio4.jpg)
+    background: url(../img/project/artist/tradyl_main.png)
 }
 
 .portfolio-bg-5 {
-    background: url(../img/project/portfolio5.jpg)
+    background: url(../img/project/artist/skillzcafe_main.png)
 }
 
 .portfolio-bg-6 {
-    background: url(../img/project/portfolio6.jpg)
+    background: url(../img/project/artist/cosmeticchoice_main.png)
 }
 
 .portfolio-bg-7 {
@@ -360,6 +360,65 @@ span.single-blog-section-img-tag {
     background: url(../img/project/artist/details.png)
 }
 
+.portfolio_bg_agencyq {
+    background: url(../img/project/artist/agency_main.png)
+}
+
+.portfolio_bg_agencyq_feeturre {
+    background: url(../img/project/artist/feeturre.com_agency.png)
+}
+
+.portfolio_bg_agencyq_details {
+    background: url(../img/project/artist/agency_details.png)
+}
+
+.portfolio_bg_yougig {
+    background: url(../img/project/artist/yougig_main.png)
+}
+
+.portfolio_bg_yougig_feeturre {
+    background: url(../img/project/artist/feeturre.com_yougig.png);
+}
+
+.portfolio_bg_yougig_details {
+    background: url(../img/project/artist/yougig_details.png)
+}
+
+.portfolio_bg_tradyl {
+    background: url(../img/project/artist/tradyl_main.png)
+}
+
+.portfolio_bg_tradyl_feeturre {
+    background: url(../img/project/artist/feeturre.com_tradyl.png);
+}
+
+.portfolio_bg_tradyl_details {
+    background: url(../img/project/artist/tradyl_details.png)
+}
+
+.portfolio_bg_cosmeticchoice {
+    background: url(../img/project/artist/cosmeticchoice_main.png)
+}
+
+.portfolio_bg_cosmeticchoice_feeturre {
+    background: url(../img/project/artist/feeturre_cosmeticchoice.png);
+}
+
+.portfolio_bg_cosmeticchoice_details {
+    background: url(../img/project/artist/cosmeticchoice_details.png)
+}
+
+.portfolio_bg_skillzcafe {
+    background: url(../img/project/artist/skillzcafe_main.png)
+}
+
+.portfolio_bg_skillzcafe_feeturre {
+    background: url(../img/project/artist/feeturre.com_skillzcafe.png);
+}
+
+.portfolio_bg_skillzcafe_details {
+    background: url(../img/project/artist/skillzcafe_details.png)
+}
 .portfolio-filter {
     margin: 0 0 50px;
     padding: 0;
@@ -528,7 +587,8 @@ span.single-blog-section-img-tag {
     font-weight: 400;
     color: #0b0d0e;
 }
-.key_Features{
+
+.key_Features {
     color: #0b0d0e;
     font-weight: 400;
 }
