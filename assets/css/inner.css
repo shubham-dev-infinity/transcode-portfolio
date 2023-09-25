@@ -19,7 +19,8 @@ INNER PAGES CSS----->
 }
 
 .welcome-area.inner {
-    padding: 150px 0 200px 0;
+    /* padding: 150px 0 200px 0; */
+    padding: 130px 0 130px 0;
 }
 
 .inner-wlc h2 {
@@ -419,6 +420,68 @@ span.single-blog-section-img-tag {
 .portfolio_bg_skillzcafe_details {
     background: url(../img/project/artist/skillzcafe_details.png)
 }
+.portfolio-1{
+    background: url(../img/project/artist/247fitness_main.png)
+} 
+.portfolio-2{
+    background: url(../img/project/artist/synergy_main.png)
+} 
+.portfolio-3{
+    background: url(../img/project/artist/ethosenergy_main.png)
+} 
+.portfolio-4{
+    background: url(../img/project/artist/Zymeal_main.png)
+}
+
+.portfolio_bg_fitness {
+    background: url(../img/project/artist/247fitness_main.png)
+}
+
+.portfolio_bg_fitness_feeturre {
+    background: url(../img/project/artist/feeturre.com_fitness.png);
+}
+
+.portfolio_bg_fitness_details{
+    background: url(../img/project/artist/fitness_details.png)
+}
+
+
+.portfolio_bg_synergy {
+    background: url(../img/project/artist/synergy_main.png)
+}
+
+.portfolio_bg_synergy_feeturre {
+    background: url(../img/project/artist/feeturre.com_synergy.png);
+}
+
+.portfolio_bg_synergy_details{
+    background: url(../img/project/artist/synergy_details.png)
+}
+
+.portfolio_bg_ethosenergy {
+    background: url(../img/project/artist/ethosenergy_main.png)
+}
+
+.portfolio_bg_ethosenergy_feeturre {
+    background: url(../img/project/artist/feeturre_ethosenergy.png);
+}
+
+.portfolio_bg_ethosenergy_details{
+    background: url(../img/project/artist/ethosenergy_details.png)
+}
+
+.portfolio_bg_zymeal {
+    background: url(../img/project/artist/Zymeal_main.png)
+}
+
+.portfolio_bg_zymeal_feeturre {
+    background: url(../img/project/artist/feeturre_Zymeal.png);
+}
+
+.portfolio_bg_zymeal_details{
+    background: url(../img/project/artist/Zymeal_details.png)
+}
+
 .portfolio-filter {
     margin: 0 0 50px;
     padding: 0;

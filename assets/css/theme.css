@@ -276,7 +276,7 @@ a.contact-btn:hover{
     right     : -100%;
     top       : 0;
     height    : 100%;
-    padding   : 80px 40px 40px 40px;
+    padding   : 14px 40px 40px 40px;
     background: black;
     transition: all 1s;
 }
@@ -318,7 +318,7 @@ a.contact-btn:hover{
 .side-close {
     position     : absolute;
     right        : 5%;
-    top          : 5%;
+    top          : 7%;
     font-size    : 20px;
     color        : #fff;
     border       : 1px solid #fff;

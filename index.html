@@ -13,6 +13,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--::::: ALL CSS CALLING :::::::-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="assets/css/plugins/animate.min.css">
     <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/plugins/fontawesome.css">
@@ -62,7 +67,7 @@
                             <div class="banner-social">
                                 <ul>
                                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
                                     <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                                     <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                                 </ul>
@@ -84,7 +89,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-6 col-lg-3 align-self-center">
-                        <h1 class="logo">Trans<span>code</span></h1>
+                        <a href="">
+                            <h1 class="logo">Trans<span>code</span></h1>
+                        </a>
                     </div>
                     <div class="d-none d-lg-block col-lg-9 align-self-center text-right">
                         <div class="search-area">
@@ -109,7 +116,9 @@
                         <i class="fal fa-times"></i>
                     </div>
                     <div class="logo">
-                        <a href="#"><img src="assets/img/logo/logo.svg" alt=""></a>
+                        <a href="">
+                            <h1 class="logo">Trans<span>code</span></h1>
+                        </a>
                     </div>
                     <div class="side-content">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ratione reprehenderit, error
@@ -120,7 +129,7 @@
                     <div class="side-social">
                         <ul>
                             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
                             <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                             <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                         </ul>
@@ -278,10 +287,83 @@
                             </div>
                         </div>
                     </div>
+                </div>
 
+                <div class="row portfolio-list">
+                    <div class="col-md-4 barnding">
+                        <div class="portfolio-wrap">
+                            <div class="single-portfolio-item lage portfolio-1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-table">
+                                        <div class="portfolio-hover-table-cell">
+                                            <a href="247fitness.html"><i class="fa fa-eye"></i></a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-description">
+                                <h6>29 November 2019</h6>
+                                <h3>Architecture, Digital Art</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 barnding agency design app-design">
+                        <div class="portfolio-wrap">
+                            <div class="single-portfolio-item lage portfolio-2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-table">
+                                        <div class="portfolio-hover-table-cell">
+                                            <a href="synergy.html"><i class="fa fa-eye"></i></a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-description">
+                                <h6>29 November 2019</h6>
+                                <h3>Architecture, Digital Art</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 barnding agency">
+                        <div class="portfolio-wrap">
+                            <div class="single-portfolio-item lage portfolio-3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-table">
+                                        <div class="portfolio-hover-table-cell">
+                                            <a href="ethosenergy.html"><i class="fa fa-eye"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-description">
+                                <h6>29 November 2019</h6>
+                                <h3>Architecture, Digital Art</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 barnding app-design">
+                        <div class="portfolio-wrap">
+                            <div class="single-portfolio-item lage portfolio-4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-table">
+                                        <div class="portfolio-hover-table-cell">
+                                            <a href="zymeal.html"><i class="fa fa-eye"></i></a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-description">
+                                <h6>29 November 2019</h6>
+                                <h3>Architecture, Digital Art</h3>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-12 text-center">
-                    <a href="#" class="subscribe-btn">Loead More <i class="fas fa-plus-square"></i></a>
+                    <a class="subscribe-btn" id="toggle">Read More<i class="fas fa-plus-square"></i></a>
                 </div>
             </div>
             <img src="assets/img/bg/service-bg.svg" alt="" class="inner-shape1">
@@ -507,6 +589,24 @@
     <script src="assets/js/plugins/isotop.v3.0.4.min.js"></script>
     <script src="assets/js/main.js"></script>
 
+
+
+    <script>
+        $(document).ready(function () {
+            $("#toggle").click(function () {
+                var elem = $("#toggle").text();
+                if (elem == "Read More") {
+                    //Stuff to do when btn is in the read more state
+                    $("#toggle").text("Read Less");
+                    $("#text").slideDown();
+                } else {
+                    //Stuff to do when btn is in the read less state
+                    $("#toggle").text("Read More");
+                    $("#text").slideUp();
+                }
+            });
+        });
+    </script>
 
 </body><!--BODY END-->
 
