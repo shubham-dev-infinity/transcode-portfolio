@@ -1068,3 +1068,38 @@ div#all{
 .logo {
     max-width: 52%;
 }
+
+.banner-contact{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.c_btn{
+    display: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    background-image: linear-gradient(to right top, #11accd, #1e9bc3, #08d665);
+    padding: 10px 25px 10px 40px;
+    border-radius: 15px;
+    transition: all .3s;
+    position: relative;
+    z-index: 2;
+}
+a.c_btn i {
+    display: none;
+    transition: all .3s;
+    position: absolute;
+    left: 7px;
+    top: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: -15px;
+}
+.side-social ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}

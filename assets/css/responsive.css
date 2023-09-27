@@ -48,13 +48,21 @@ Description:
 ================+/+/+/+/+/+/+/+/+/=================
 */
 @media only screen and (max-width: 991px) {
+
+    .c_btn,
+    a.c_btn i {
+        display: block;
+    }
+
     .logo {
         max-width: unset;
         width: 300px;
     }
+
     .logo_header {
         max-width: 29.5%;
     }
+
     .skill-area.primery-skill .row:last-child>div {
         margin-bottom: 30px;
     }
@@ -198,6 +206,7 @@ Description:
     .side-close {
         top: 2%;
     }
+
     .row.portfolio-list {
         margin-bottom: 35px;
     }
@@ -217,6 +226,7 @@ Description:
         max-width: unset;
         width: 85px;
     }
+
     .wlc-title h1 {
         font-size: 32px;
         line-height: 36px;
@@ -406,15 +416,19 @@ Description:
     .logo {
         font-size: 2.5rem;
     }
+
     .portfolio-filter {
         margin: 0 0 0px;
     }
-    .nav-link{
+
+    .nav-link {
         padding: 5px 10px;
     }
+
     ul#portfolioTabs {
         margin-bottom: 10px;
     }
+
     .side-close {
         top: 3%;
     }
@@ -436,25 +450,35 @@ Description:
     .side-widgest {
         width: 100%;
     }
-    #loadMore, #loadLess {
+
+    #loadMore,
+    #loadLess {
         padding: 12px 60px 10px 15px;
     }
-    a.subscribe-btn i{
+
+    a.subscribe-btn i {
         height: 33px;
         width: 33px;
     }
-    #loadLess i.fas.fa-plus-square{
+
+    #loadLess i.fas.fa-plus-square {
         height: 33px;
         width: 33px;
     }
+
     .lage {
         height: 220px;
     }
-    .portfolio-description{
+
+    .portfolio-description {
         padding: 10px 0 15px;
+    }
+
+    .c_btn {
+        padding: 9px 20px 9px 35px;
     }
 }
 
-/*=========================================================================
+    /*=========================================================================
                                 The end
 ==========================================================================*/
