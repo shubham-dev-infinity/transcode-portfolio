@@ -196,7 +196,7 @@ Description:
     }
 
     .side-close {
-        top: 4%;
+        top: 2%;
     }
     .row.portfolio-list {
         margin-bottom: 35px;
@@ -414,6 +414,9 @@ Description:
     }
     ul#portfolioTabs {
         margin-bottom: 10px;
+    }
+    .side-close {
+        top: 3%;
     }
 }
 
