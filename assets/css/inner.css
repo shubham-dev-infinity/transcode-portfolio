@@ -7,16 +7,11 @@ INNER PAGES CSS----->
 
 */
 
-
-.logo {
-    font-size: 3rem;
-    letter-spacing: normal;
+img{
+    max-width: 100%;
 }
 
-.logo>span {
-    color: #08d665;
 
-}
 
 .welcome-area.inner {
     /* padding: 150px 0 200px 0; */
@@ -420,16 +415,20 @@ span.single-blog-section-img-tag {
 .portfolio_bg_skillzcafe_details {
     background: url(../img/project/artist/skillzcafe_details.png)
 }
-.portfolio-1{
+
+.portfolio-1 {
     background: url(../img/project/artist/247fitness_main.png)
-} 
-.portfolio-2{
+}
+
+.portfolio-2 {
     background: url(../img/project/artist/synergy_main.png)
-} 
-.portfolio-3{
+}
+
+.portfolio-3 {
     background: url(../img/project/artist/ethosenergy_main.png)
-} 
-.portfolio-4{
+}
+
+.portfolio-4 {
     background: url(../img/project/artist/Zymeal_main.png)
 }
 
@@ -441,7 +440,7 @@ span.single-blog-section-img-tag {
     background: url(../img/project/artist/feeturre.com_fitness.png);
 }
 
-.portfolio_bg_fitness_details{
+.portfolio_bg_fitness_details {
     background: url(../img/project/artist/fitness_details.png)
 }
 
@@ -454,7 +453,7 @@ span.single-blog-section-img-tag {
     background: url(../img/project/artist/feeturre.com_synergy.png);
 }
 
-.portfolio_bg_synergy_details{
+.portfolio_bg_synergy_details {
     background: url(../img/project/artist/synergy_details.png)
 }
 
@@ -466,7 +465,7 @@ span.single-blog-section-img-tag {
     background: url(../img/project/artist/feeturre_ethosenergy.png);
 }
 
-.portfolio_bg_ethosenergy_details{
+.portfolio_bg_ethosenergy_details {
     background: url(../img/project/artist/ethosenergy_details.png)
 }
 
@@ -478,7 +477,7 @@ span.single-blog-section-img-tag {
     background: url(../img/project/artist/feeturre_Zymeal.png);
 }
 
-.portfolio_bg_zymeal_details{
+.portfolio_bg_zymeal_details {
     background: url(../img/project/artist/Zymeal_details.png)
 }
 
@@ -987,4 +986,91 @@ img.memphis.memphis7 {
     transform: translateY(-5px);
     transition: all .3s;
     box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* ********************************************************************************** */
+
+#loadLess {
+    display: none;
+}
+
+#loadMore,
+#loadLess {
+    padding: 15px 60px 15px 30px;
+    background: #22cd6f;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;
+}
+
+#loadMore:hover{
+    background-color: #fff;
+    color: #22cd6f;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#loadLess i.fas.fa-plus-square{
+    background: #fff;
+    color: #22cd6f;
+    height: 35px;
+    width: 35px;
+    text-align: center !important;
+    position: absolute;
+    right: 13px;
+    line-height: 35px;
+    border-radius: 3px;
+    top: 50%;
+    margin-top: -17.5px;
+}
+#loadLess:hover{
+    background-color: #fff;
+    color: #22cd6f;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border:1px solid #22cd6f;
+}
+.nav-tabs {
+    border: none;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link {
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #08d665;
+    background-color: none;
+    border-color: none;
+    border: none;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    border-top-left-radius: none;
+    border-top-right-radius: none;
+}
+
+ul#portfolioTabs {
+    margin-bottom: 30px;
+}
+div#all{
+    padding: 0 15px;
+}
+
+.logo_header{
+    max-width: 39%;
+}
+.header-area{
+    padding: 10px 0px;
+}
+.logo {
+    max-width: 52%;
 }

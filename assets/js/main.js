@@ -310,33 +310,34 @@ jQuery(document).ready(function($) {
     var navbarmneuclass = $('.navbarmneuclass');
     navbarmneuclass.onePageNav();
 
-    var portfolio_filter = $(".portfolio-filter li");
-    var portfolio_list = $(".portfolio-list");
-    var portfolio_list2 = $(".portfolio-list2");
+    // var portfolio_filter = $(".portfolio-filter li");
+    // var portfolio_list = $(".portfolio-list");
+    // // console.log('portfolio_list',portfolio_list);
+    // // var portfolio_list2 = $(".portfolio-list2");
 
 
-    portfolio_filter.on('click',function(){
-        portfolio_filter.removeClass("active");
-        $(this).addClass("active");
+    // portfolio_filter.on('click',function(){
+    //     portfolio_filter.removeClass("active");
+    //     $(this).addClass("active");
         
-        var filterValue= $(this).attr("data-filter");
-        portfolio_list.isotope({
-            filter:filterValue,
-            layoutMode: 'masonry',
-            masonry: {
-                columnWidth: '.col-md-4',
-                horizontalOrder:false,
-            }
-        });
-    });
+    //     var filterValue= $(this).attr("data-filter");
+    //     portfolio_list.isotope({
+    //         filter:filterValue,
+    //         layoutMode: 'masonry',
+    //         masonry: {
+    //             columnWidth: '.col-md-6',
+    //             horizontalOrder:false,
+    //         }
+    //     });
+    // });
     
-    portfolio_list.isotope({
-        layoutMode: 'masonry',
-        masonry: {
-            columnWidth: '.col-md-4',
-            horizontalOrder:false,
-        }
-    });
+    // portfolio_list.isotope({
+    //     layoutMode: 'masonry',
+    //     masonry: {
+    //         columnWidth: '.col-md-6',
+    //         horizontalOrder:false,
+    //     }
+    // });
 
 
  });
