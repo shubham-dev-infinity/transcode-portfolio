@@ -1079,7 +1079,9 @@ div#all{
     color: #ffffff;
     font-size: 15px;
     font-weight: 400;
-    background-image: linear-gradient(to right top, #11accd, #1e9bc3, #08d665);
+    background-image: linear-gradient(to right top, #D16BA5, #C777B9, #BA83CA, #AA8FD8, #9A9AE1, #8AA7EC, #79B3F4, #69BFF8, #52CFFE, #41DFFF,
+#46EEFA, #5FFBF1);
+    /* background-image: linear-gradient(to right top, #fe57a3, #0db4d1, #2cd94f); */
     padding: 10px 25px 10px 40px;
     border-radius: 15px;
     transition: all .3s;

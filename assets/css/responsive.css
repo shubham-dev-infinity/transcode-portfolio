@@ -432,6 +432,9 @@ Description:
     .side-close {
         top: 3%;
     }
+    .side-social ul{
+        gap: 0px;
+    }
 }
 
 /*
