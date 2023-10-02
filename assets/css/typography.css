@@ -45,7 +45,7 @@ a {
 }
 
 a:hover {
-    color: #08d665;
+    color: #2D85B6;
 }
 
 a:focus,
@@ -1468,7 +1468,7 @@ input:-webkit-autofill:hover {
 }
 
 .padding-top {
-    padding-top: 120px;
+    padding-top: 40px;
 }
 
 .padding-bottom {

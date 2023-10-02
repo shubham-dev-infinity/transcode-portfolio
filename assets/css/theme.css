@@ -72,7 +72,7 @@ FOOTER AREA CSS
     margin     : 0 2px;
 }
 .header-banner-area .owl-nav > div:hover{
-	color: #08D665;
+	color: #2D85B6;
 }
 .header-banner-area .owl-nav > div i{
 	font-size: 12px;
@@ -118,7 +118,7 @@ FOOTER AREA CSS
 .banner-icon {
     position  : absolute;
     left      : 0;
-    background: #08D665;
+    background: #2D85B6;
     padding   : 10px 12px;
     top       : 0;
     color     : #fff;
@@ -139,7 +139,7 @@ FOOTER AREA CSS
     padding  : 10px;
 }
 .banner-social li a:hover{
-	color: #08D665;
+	color: #2D85B6;
 }
 
 
@@ -152,7 +152,7 @@ a.contact-btn {
     color      : #fff;
     font-size  : 13px;
     font-weight: 400;
-    background : #08D665;
+    background : #2D85B6;
     padding    : 10px 25px 10px 40px;
     transition : all .3s;
     position   : relative;
@@ -219,7 +219,7 @@ a.contact-btn:hover{
 }
 
 .search-btn i {
-    color: #08D665;
+    color: #2D85B6;
 }
 
 .search-box input {
@@ -332,8 +332,8 @@ a.contact-btn:hover{
 
 .side-social li a:hover, 
 .side-close:hover{
-    background  :#08D665;
-    border-color: #08D665;
+    background  :#2D85B6;
+    border-color: #ffffff;
     transition  : all .3s;
 }
 
@@ -1545,7 +1545,7 @@ a.readmore-btn {
 }
 a.subscribe-btn {
     padding: 15px 60px 15px 30px;
-    background: #22cd6f;
+    background: #2D85B6;
     border-radius: 5px;
     color: #fff;
     text-transform: uppercase;
@@ -1557,9 +1557,9 @@ a.subscribe-btn {
 }
 a.subscribe-btn:hover, 
 a.subscribe-btn:hover i{
-    border-color: #22cd6f;
+    border-color: #2D85B6;
     background: transparent;
-    color: #22cd6f;
+    color: #2D85B6;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
@@ -1567,7 +1567,7 @@ a.subscribe-btn:hover i{
 
 a.subscribe-btn i {
     background: #fff;
-    color: #22cd6f;
+    color: #2D85B6;
     height: 35px;
     width: 35px;
     text-align: center !important;
@@ -1658,7 +1658,7 @@ img.cta-shape {
     content: "";
     height: 100%;
     width: 0;
-    background: #22cd6f;
+    background: #2D85B6;
     top: 0;
     left: 0;
     z-index: -1;
@@ -1745,7 +1745,7 @@ span.single-social-icon i {
 }
 
 .copyright span {
-    color: #08d665;
+    color: #2D85B6;
 }
 
 .copyright {
@@ -1890,7 +1890,7 @@ a.up-btn {
     position: fixed;
     bottom: 0;
     right: 10%;
-    background: #08d665;
+    background: #2D85B6;
     color: #fff;
     height: 60px;
     width: 60px;
@@ -1905,9 +1905,9 @@ a.up-btn {
 }
 
 a.up-btn:hover {
-    color: #08d665;
+    color: #2D85B6;
     background: #fff;
-    border-color: #08d665;
+    border-color: #2D85B6;
     z-index: 999999999;
 }
 

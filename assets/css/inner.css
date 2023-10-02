@@ -991,7 +991,7 @@ img.memphis.memphis7 {
 #loadMore,
 #loadLess {
     padding: 15px 60px 15px 30px;
-    background: #22cd6f;
+    background: #2D85B6;
     border-radius: 5px;
     color: #fff;
     text-transform: uppercase;
@@ -1001,13 +1001,13 @@ img.memphis.memphis7 {
 
 #loadMore:hover{
     background-color: #fff;
-    color: #22cd6f;
+    color: #2D85B6;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 #loadLess i.fas.fa-plus-square{
     background: #fff;
-    color: #22cd6f;
+    color: #2D85B6;
     height: 35px;
     width: 35px;
     text-align: center !important;
@@ -1020,10 +1020,10 @@ img.memphis.memphis7 {
 }
 #loadLess:hover{
     background-color: #fff;
-    color: #22cd6f;
+    color: #2D85B6;
     cursor: pointer;
     transition: all 0.3s ease;
-    border:1px solid #22cd6f;
+    border:1px solid #2D85B6;
 }
 .nav-tabs {
     border: none;
@@ -1040,7 +1040,7 @@ img.memphis.memphis7 {
 
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
-    color: #08d665;
+    color: #2D85B6;
     background-color: none;
     border-color: none;
     border: none;
@@ -1078,8 +1078,7 @@ div#all{
     color: #ffffff;
     font-size: 15px;
     font-weight: 400;
-    background-image: linear-gradient(to right top, #D16BA5, #C777B9, #BA83CA, #AA8FD8, #9A9AE1, #8AA7EC, #79B3F4, #69BFF8, #52CFFE, #41DFFF,
-#46EEFA, #5FFBF1);
+    background: #2D85B6;
     /* background-image: linear-gradient(to right top, #fe57a3, #0db4d1, #2cd94f); */
     padding: 10px 25px 10px 40px;
     border-radius: 15px;
@@ -1106,4 +1105,10 @@ a.c_btn i {
     display: flex;
     justify-content: space-between;
     gap: 50px;
+}
+.subscribe-btn{
+    margin-top: 15px;
+}
+#loadLess{
+    margin-top: 20px;
 }
