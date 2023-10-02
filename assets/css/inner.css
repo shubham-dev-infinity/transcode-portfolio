@@ -14,8 +14,7 @@ img{
 
 
 .welcome-area.inner {
-    /* padding: 150px 0 200px 0; */
-    padding: 130px 0 130px 0;
+    padding: 60px 0 60px 0;
 }
 
 .inner-wlc h2 {
@@ -1087,6 +1086,9 @@ div#all{
     transition: all .3s;
     position: relative;
     z-index: 2;
+}
+.c_btn:hover{
+    color: #000;
 }
 a.c_btn i {
     display: none;
