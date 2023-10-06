@@ -1112,3 +1112,19 @@ a.c_btn i {
 #loadLess{
     margin-top: 20px;
 }
+.technology{
+    text-align: center;
+    font-size:  33px !important;
+    letter-spacing: normal;
+    margin-bottom: 40px;
+}
+.single-logo-table{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+.owl-item.active{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+}
