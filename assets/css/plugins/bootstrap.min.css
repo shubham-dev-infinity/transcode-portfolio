@@ -602,7 +602,11 @@ pre code {
         max-width: 1140px
     }
 }
-
+@media (min-width:1880px) {
+    .container{
+        max-width: 1200px
+    }
+}
 .container-fluid,
 .container-lg,
 .container-md,

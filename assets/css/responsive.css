@@ -432,10 +432,12 @@ Description:
     .side-close {
         top: 3%;
     }
-    .side-social ul{
+
+    .side-social ul {
         gap: 0px;
     }
-    .technology{
+
+    .technology {
         font-size: 28px !important;
         margin-bottom: 30px;
     }
@@ -484,12 +486,13 @@ Description:
     .c_btn {
         padding: 9px 20px 9px 35px;
     }
+
     .technology {
         font-size: 26px !important;
         margin-bottom: 20px;
     }
 }
 
-    /*=========================================================================
+/*=========================================================================
                                 The end
 ==========================================================================*/
