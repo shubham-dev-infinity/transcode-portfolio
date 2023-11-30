@@ -1217,7 +1217,7 @@ a.c_btn i {
   
   .portfolio .portfolio-wrap:hover .portfolio-info::before {
     top: 25px;
-    left: 15px;
+    left: 7px;
   }
   
   .portfolio .portfolio-wrap .portfolio-info::before {
@@ -1255,7 +1255,7 @@ a.c_btn i {
   
   .portfolio .portfolio-wrap:hover .portfolio-info::after {
     bottom: 25px;
-    right: 15px;
+    right: 7px;
   }
   
   .portfolio .portfolio-wrap:hover img {
@@ -1330,11 +1330,11 @@ a.c_btn i {
   
     .portfolio .portfolio-wrap:hover .portfolio-info::after {
       bottom: 15px;
-      right: 7px;
+      right: 10px;
     }
   
     .portfolio .portfolio-wrap:hover .portfolio-info::before {
       top: 15px;
-      left: 7px;
+      left: 10px;
     }
   }
