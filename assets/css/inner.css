@@ -1330,11 +1330,11 @@ a.c_btn i {
   
     .portfolio .portfolio-wrap:hover .portfolio-info::after {
       bottom: 15px;
-      right: 10px;
+      right: 7px;
     }
   
     .portfolio .portfolio-wrap:hover .portfolio-info::before {
       top: 15px;
-      left: 10px;
+      left: 7px;
     }
   }
