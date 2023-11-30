@@ -1338,3 +1338,13 @@ a.c_btn i {
       left: 10px;
     }
   }
+  @media (max-width:320px) {
+    .portfolio .portfolio-wrap:hover .portfolio-info::before {
+        top: 27px;
+        left: 7px;
+    }
+    .portfolio .portfolio-wrap:hover .portfolio-info::after {
+        bottom: 27px;
+        right: 7px;
+    }
+  }
