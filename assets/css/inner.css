@@ -480,6 +480,36 @@ span.single-blog-section-img-tag {
     background: url(../img/project/artist/Zymeal_details.png)
 }
 
+.portfolio_bg_zwift{
+    background-image: url(../img/project/artist/zwift_main_img.png);
+}
+.portfolio_bg_zwift_feeturre{
+    background-image: url(../img/project/artist/zwift_feeturre_img.png);
+}
+.portfolio_bg_zwift_details{
+    background-image: url(../img/project/artist/zwift_details.png);
+}
+
+.portfolio_bg_sephora{
+    background-image: url(../img/project/artist/sephora_main_img.png);
+}
+.portfolio_bg_sephora_feeturre{
+    background-image: url(../img/project/artist/sephora_feeturre_img.png);
+}
+.portfolio_bg_sephora_details{
+    background-image: url(../img/project/artist/sephora_details_img.png);
+}
+
+.portfolio_bg_harbal{
+    background-image: url(../img/project/artist/harbal_main_img.png);
+}
+.portfolio_bg_harbal_feeturre{
+    background-image: url(../img/project/artist/harbal_feeturre_img.png);
+}
+.portfolio_bg_harbal_details{
+    background-image: url(../img/project/artist/harbal_details.png);
+}
+
 .portfolio-filter {
     margin: 0 0 50px;
     padding: 0;
@@ -1137,7 +1167,7 @@ a.c_btn i {
   
   img.port_img {
     border-radius: 10px;
-    height: 225px;
+    height: 200px;
     object-fit: cover;
   }
   
@@ -1160,7 +1190,7 @@ a.c_btn i {
   }
   
   img.zymeal_img {
-    height: 235px;
+    height: 215px;
     width: 100%;
     border-radius: 10px;
   }
