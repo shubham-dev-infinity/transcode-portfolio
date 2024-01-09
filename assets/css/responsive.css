@@ -95,7 +95,7 @@ Description:
     }
 
     .welcome-area.inner {
-        padding: 100px 0 50px 0;
+        padding: 19px 0 0px 0;
     }
 
     .single-blog-section-description h2 {
@@ -266,6 +266,9 @@ Description:
     /* .header-area {
         padding: 10px 0;
     } */
+    .welcome-area.inner {
+        padding: 10px 0 0px 0;
+    }
 
     .single-blog-img {
         height: 220px !important;
@@ -326,7 +329,7 @@ Description:
     }
 
     .section-padding {
-        padding: 70px 0;
+        padding: 71px 0;
     }
 
     .cta-form input {
@@ -401,9 +404,9 @@ Description:
         padding: 5px 5px;
     }
 
-    .welcome-area.inner {
+    /* .welcome-area.inner {
         padding: 50px 0 50px 0;
-    }
+    } */
 
     .inner-wlc h2 {
         font-size: 40px;
@@ -441,6 +444,11 @@ Description:
         font-size: 28px !important;
         margin-bottom: 30px;
     }
+    
+    .rainbow_btn {
+        padding: 11px 20px;
+        font-size: 16px;
+    }
 }
 
 /*
@@ -453,6 +461,8 @@ Description:
     .container {
         width: 480px;
     }
+
+   
 }
 
 @media (max-width:367px) {

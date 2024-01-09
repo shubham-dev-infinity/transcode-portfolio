@@ -318,39 +318,7 @@ jQuery(document).ready(function($) {
     //current class adding 
     var navbarmneuclass = $('.navbarmneuclass');
     navbarmneuclass.onePageNav();
-
-    // var portfolio_filter = $(".portfolio-filter li");
-    // var portfolio_list = $(".portfolio-list");
-    // // console.log('portfolio_list',portfolio_list);
-    // // var portfolio_list2 = $(".portfolio-list2");
-
-
-    // portfolio_filter.on('click',function(){
-    //     portfolio_filter.removeClass("active");
-    //     $(this).addClass("active");
-        
-    //     var filterValue= $(this).attr("data-filter");
-    //     portfolio_list.isotope({
-    //         filter:filterValue,
-    //         layoutMode: 'masonry',
-    //         masonry: {
-    //             columnWidth: '.col-md-6',
-    //             horizontalOrder:false,
-    //         }
-    //     });
-    // });
-    
-    // portfolio_list.isotope({
-    //     layoutMode: 'masonry',
-    //     masonry: {
-    //         columnWidth: '.col-md-6',
-    //         horizontalOrder:false,
-    //     }
-    // });
-
-
  });
-    
 
     //jquery load function start
     jQuery(window).on("load", function() {
@@ -360,4 +328,90 @@ jQuery(document).ready(function($) {
 
 }(jQuery));
 
+// *************************************************************** click submit msg ******************************************************
 
+var Alert = undefined;
+
+(function(Alert) {
+  var alert, error, trash, info, success, warning, _container;
+
+  success = function(message, title, options) {
+    return alert("success", message, title, "fa fa-check-circle", options);
+  };
+  
+  alert = function(type, message, title, icon, options) {
+    var alertElem, messageElem, titleElem, iconElem, innerElem, _container;
+    if (typeof options === "undefined") {
+      options = {};
+    }
+    options = $.extend({}, Alert.defaults, options);
+    if (!_container) {
+      _container = $("#alerts");
+      if (_container.length === 0) {
+        _container = $("<ul>").attr("id", "alerts").appendTo($("body"));
+      }
+    }
+    if (options.width) {
+      _container.css({
+        width: options.width
+      });
+    }
+    alertElem = $("<li>").addClass("alert").addClass("alert-" + type);
+    setTimeout(function() {
+      alertElem.addClass('open');
+    }, 1);
+    if (icon) {
+      iconElem = $("<i>").addClass(icon);
+      alertElem.append(iconElem);
+    }
+    innerElem = $("<div>").addClass("alert-block");
+    //innerElem = $("<i>").addClass("fa fa-times");
+    alertElem.append(innerElem);
+    if (title) {
+      titleElem = $("<div>").addClass("alert-title").append(title);
+      innerElem.append(titleElem);
+      
+    }
+    if (message) {
+      messageElem = $("<div>").addClass("alert-message").append(message);
+      //innerElem.append("<i class="fa fa-times"></i>");
+      innerElem.append(messageElem);
+      //innerElem.append("<em>Click to Dismiss</em>");
+//      innerElemc = $("<i>").addClass("fa fa-times");
+
+    }
+    if (options.displayDuration > 0) {
+      setTimeout((function() {
+        leave();
+      }), options.displayDuration);
+    } else {
+      innerElem.append("<em>Click to Dismiss</em>");
+    }
+    alertElem.on("click", function() {
+      leave();
+    });
+
+    function leave() {
+      alertElem.removeClass('open');
+      alertElem.one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function() {
+        return alertElem.remove();
+      });
+    }
+    return _container.prepend(alertElem);
+  };
+  Alert.defaults = {
+    width: "",
+    icon: "",
+    displayDuration: 30000,
+    pos: ""
+  };
+  Alert.success = success;
+  return _container = void 0;
+
+})(Alert || (Alert = {}));
+
+this.Alert = Alert;
+
+$('#test').on('click', function() {
+  Alert.info('Message');
+});
