@@ -2201,15 +2201,76 @@ p.single-soicial-text {
   }
 
 
-  .rainbow_btn{
+  .rainbow-btn {
+    width: auto;
+    /* text-align: center; */
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
     border-radius: 10px;
+    box-sizing: border-box;
+    display: block;
+    z-index: 2;
+    overflow: hidden;
+    padding: 4px;
+    height: 60px; 
+}
+.rainbow-btn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(82deg,#ff59a3,#ffd084,#4c599e,#2fadd9,#ff54a4);
+    background-size: 50% 100%
+}
+.rainbow-btn span {
+    position: relative;
+    z-index: 2;
+    padding: 11px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    align-items: center;
+    background: #000;
+    border-radius: 3px;
+    display: block;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 100%;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.rainbow-btn:focus:before,
+.rainbow-btn:hover:before {
+    animation: rainbow-btn .85s linear infinite
+}
+@keyframes rainbow-btn {
+    to {
+        transform: translateX(-50%)
+    }
+}
+.schedule_btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.schedule_btn button{
     background-color: #2D85B6;
+    padding: 12px 15px; 
     color: white;
-    padding: 12px 22px;
-    border: 0px;
-    font-size: 17px;
-  }
-  
+    border-radius: 10px;
+    border: 1px solid  #2D85B6;
+    transition: all 0.2s linear;
+    box-shadow: 2px 3px 20px -3px #2D85B6;
+}
+.schedule_btn button:hover{
+    background-color: white;
+    color: #2D85B6;
+}
+i.fa-solid.fa-paper-plane{
+    padding-left: 9px;
+}
 
   @media (max-width:450px) {
     .alert i {

@@ -1243,6 +1243,7 @@ a.c_btn i {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 239px;
   }
   
   .portfolio .portfolio-wrap:hover .portfolio-info::before {
@@ -1281,10 +1282,12 @@ a.c_btn i {
   .portfolio .portfolio-wrap .portfolio-links {
     text-align: center;
     z-index: 4;
+    position: absolute;
+    top: 49%;
   }
   
   .portfolio .portfolio-wrap:hover .portfolio-info::after {
-    bottom: 25px;
+    bottom: 5px;
     right: 7px;
   }
   
