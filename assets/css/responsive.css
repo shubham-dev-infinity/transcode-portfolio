@@ -383,6 +383,10 @@ Description:
         bottom: 40%;
     }
 
+    .rainbow-btn span {
+        font-size: 18px;
+        font-family: 'Rubik', sans-serif;
+    }
 
 }
 
@@ -444,10 +448,13 @@ Description:
         font-size: 28px !important;
         margin-bottom: 30px;
     }
-    
-    .rainbow_btn {
-        padding: 11px 20px;
+
+    .rainbow-btn span {
         font-size: 16px;
+    }
+
+    .rainbow-btn {
+        padding: 3px;
     }
 }
 
@@ -461,8 +468,13 @@ Description:
     .container {
         width: 480px;
     }
+}
 
-   
+@media (max-width:450px) {
+    .rainbow-btn span {
+        font-size: 16px;
+        font-weight: 500;
+    }
 }
 
 @media (max-width:367px) {

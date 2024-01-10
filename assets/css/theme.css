@@ -2202,8 +2202,6 @@ p.single-soicial-text {
 
 
   .rainbow-btn {
-    width: auto;
-    /* text-align: center; */
     position: relative;
     color: #ffffff;
     text-decoration: none;
@@ -2233,7 +2231,7 @@ p.single-soicial-text {
     text-decoration: none;
     align-items: center;
     background: #000;
-    border-radius: 3px;
+    border-radius: 5px;
     display: block;
     justify-content: center;
     box-sizing: border-box;
