@@ -1160,7 +1160,28 @@ a.c_btn i {
 }
 
 /* **************************************************************************************************************************************** */
-
+.portfolio_text_1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 239px;
+    background-color: #2D85B6;
+    border-radius: 10px;
+}
+.portfolio_text_1 h2{
+    font-size: 39px;
+    letter-spacing: normal;
+    margin-bottom: 0px;
+    color: white;
+}
+.portfolio_img{
+    width: 140px;
+}
+.port_text{
+  
+}
 .outer_img {
     margin: 30px 0px;
   }
@@ -1250,6 +1271,10 @@ a.c_btn i {
     top: 25px;
     left: 7px;
   }
+  .portfolio .port_text:hover .portfolio-info::before {
+    top: 10px;
+    left: 10px;
+  }
   
   .portfolio .portfolio-wrap .portfolio-info::before {
     display: block;
@@ -1285,14 +1310,27 @@ a.c_btn i {
     position: absolute;
     top: 49%;
   }
+  .portfolio .port_text .portfolio-links {
+    text-align: center;
+    z-index: 4;
+    position: absolute;
+    top: 48%;
+  }
   
   .portfolio .portfolio-wrap:hover .portfolio-info::after {
     bottom: 5px;
     right: 7px;
   }
+  .portfolio .port_text:hover .portfolio-info::after {
+    bottom: 10px;
+    right: 10px;
+  }
   
   .portfolio .portfolio-wrap:hover img {
     transform: scale(1.1);
+  }
+  .portfolio .port_text:hover img {
+    transform: none;
   }
   
   .portfolio .portfolio-wrap img {

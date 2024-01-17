@@ -40,6 +40,12 @@ Description:
     .side-widgest {
         width: 55%;
     }
+    .portfolio_text_1{
+        width: 289px;
+    }
+    .portfolio_text_1 h2 {
+        font-size: 32px;
+    }
 }
 
 /*
@@ -386,6 +392,9 @@ Description:
     .rainbow-btn span {
         font-size: 18px;
         font-family: 'Rubik', sans-serif;
+    }
+    .portfolio_text_1 {
+        width: 100%;
     }
 
 }
