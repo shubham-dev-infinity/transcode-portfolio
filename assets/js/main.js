@@ -404,7 +404,7 @@ var Alert = undefined;
   Alert.defaults = {
     width: "",
     icon: "",
-    displayDuration: 30000,
+    displayDuration: 2000,
     pos: ""
   };
   Alert.success = success;

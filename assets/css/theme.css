@@ -94,7 +94,7 @@ FOOTER AREA CSS
     transition: all .3s;
 }
 .header-area.header-main{
-    top: 60px;
+    top: 50px;
     -webkit--webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
@@ -1556,7 +1556,7 @@ a.readmore-btn {
     float: right;
 }
 a.subscribe-btn {
-    padding: 15px 60px 15px 30px;
+    padding: 15px 30px 15px 30px;
     background: #2D85B6;
     border-radius: 5px;
     color: #fff;
